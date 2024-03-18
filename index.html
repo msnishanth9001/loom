@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="styles.css">  -->
+
+    <title>My Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+        }
+
+        .banner {
+            background-color: #000;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .banner-buttons button {
+            background-color: #000;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+
+        .banner-buttons button:hover {
+            background-color: #808080;
+        }
+
+        .content {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-gap: 20px;
+            padding: 20px;
+            max-width: 1200px; /* Add a maximum width */
+            margin: 0 auto; /* Center the content sections */
+        }
+
+        .content-part {
+            background-color: #f5f5f5;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .content-part h2 {
+            margin-top: 0;
+        }
+
+        .content-part ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .content-part li {
+            margin-bottom: 5px;
+        }
+
+        .content-part a {
+            color: #333;
+            text-decoration: none;
+        }
+
+        .content-part a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="banner">
+        <h1>Welcome to My Website</h1>
+        <div class="banner-buttons">
+            <button>Button 1</button>
+            <button>Button 2</button>
+            <button>Button 3</button>
+        </div>
+    </div>
+
+    <div class="content">
+        <div class="content-part">
+            <h2>Part 1</h2>
+            <ul>
+              <li><a href="odoh.md" target="_blank">URL 1</a></li>
+              <li><a href="_posts/odoh.md" target="_blank">URL 2</a></li>
+            </ul>
+        </div>
+
+        <div class="content-part">
+            <h2>Part 2</h2>
+            <ul>
+              <li><a href="https://example.com/part2/1" target="_blank">URL 1</a></li>
+              <li><a href="https://example.com/part2/2" target="_blank">URL 2</a></li>
+            </ul>
+        </div>
+
+        <div class="content-part">
+            <h2>Part 3</h2>
+            <ul>
+              <li><a href="https://example.com/part3/1" target="_blank">URL 1</a></li>
+              <li><a href="https://example.com/part3/2" target="_blank">URL 2</a></li>
+            </ul>
+        </div>
+
+        <div class="content-part">
+            <h2>Part 4</h2>
+            <ul>
+              <li><a href="https://example.com/part4/1" target="_blank">URL 1</a></li>
+              <li><a href="https://example.com/part4/2" target="_blank">URL 2</a></li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

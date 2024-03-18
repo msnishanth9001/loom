@@ -53,11 +53,8 @@
         }
 
         .content-part {
-/*            background-color: #f5f5f5;*/
-/*            padding: 50px;*/
+            padding: 50px;
             font-size: 20px;
-/*            border-radius: 5px;*/
-/*            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);*/
         }
 
         .content-part h2 {
@@ -90,6 +87,16 @@
 
         .content-part a:hover {
             text-decoration: underline;
+        }
+
+        @media screen and (max-width: 768px) {
+            .content {
+                display: block;
+            }
+
+            .content-part {
+                padding: 20px;
+            }
         }
 
     </style>
@@ -132,7 +139,5 @@
             </ul>
         </div>
     </div>
-
-
 </body>
 </html>
